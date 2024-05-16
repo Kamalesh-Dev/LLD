@@ -12,5 +12,10 @@ public abstract class GUI {
         {
             return new IosGUIFactory();
         }
+        else
+        {
+            return null;
+        }
+
     }
 }
