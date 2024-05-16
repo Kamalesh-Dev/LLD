@@ -1,6 +1,6 @@
 package com.factory.abstractFactory.GUI;
 
-public abstract class GUI {
+public class GUI {
 
     public static GUIFactory getFactory(String type)
     {
